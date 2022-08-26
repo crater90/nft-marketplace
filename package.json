@@ -6,9 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "@sanity/image-url": "^1.0.1",
+    "@thirdweb-dev/react": "^2.7.2",
+    "@thirdweb-dev/sdk": "^2.3.41",
+    "ethers": "^5.7.0",
+    "next": "^12.2.5",
+    "next-sanity": "^0.8.2",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hot-toast": "^2.3.0",
+    "sanity": "^2.29.3"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
