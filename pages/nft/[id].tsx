@@ -18,7 +18,7 @@ function NftDropPage({ collection }: Props) {
   const [claimedSupply, setClaimedSupply] = useState<number>(0)
   const [totalSupply, setTotalSupply] = useState<BigNumber>()
   const [priceInEth, setPriceInEth] = useState<string>()
-  const [loading, setLoading] = useState<Boolean>(true)
+  const [loading, setLoading] = useState<boolean>(true)
   const nftDrop = useNFTDrop(collection.address)
 
   //connecting wallet 
